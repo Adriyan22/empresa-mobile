@@ -1,0 +1,33 @@
+section#terceira-secao {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+div.conexao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+h2.conectado {
+    margin-bottom: 10%;
+    text-transform: capitalize;
+    color:#9340ff;
+}
+
+@media screen and (max-width: 768px){
+    section#terceira-secao {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    h2.conectado {
+        margin-bottom: 5%;
+    }
+}

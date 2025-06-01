@@ -1,0 +1,39 @@
+section#segunda-secao {
+    color: #fff;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    position: relative;
+}
+
+/* div.arrow-bottom {
+    height: 35px;
+    width: 35px;
+    background-image: linear-gradient(to right, #9340ff, #ff3c5f);
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+
+.fa-arrow-down {
+    color: #ffffffa1;
+    font-size: 20px;
+}
+
+.fa-arrow-down:active {
+    color: #fff;
+} */
+
+span.nome-da-empresa {
+    color: #9340ff;
+}
+
+@media screen and (max-width: 768px){
+    section#segunda-secao {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+    }
+}

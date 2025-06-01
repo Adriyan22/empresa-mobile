@@ -1,0 +1,69 @@
+section#ultima-secao, address {
+   height: 30vh;
+   width: 95vw;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+h3.contate-nos {
+    text-align: center;
+    color:#9340ff;
+}
+
+p.endereco {
+    color: #fff;
+    text-align: center;
+}
+
+div.redes-sociais > ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.fa-brands {
+    color: #ff3c5f;
+    font-size: 1.5em;
+}
+
+.fa-brands::after {
+    content: "";
+    margin: 2px 0;
+    display: block;
+    width: 0px;
+    height: 2px;
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.fa-brands:hover::after {
+    width: 100%;
+}
+
+.fa-instagram:active {
+    color: purple;
+}
+
+.fa-linkedin:active {
+    color: #00f;
+}
+
+.fa-facebook-f:active {
+    color: #00f;
+}
+
+.fa-twitter:active {
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    section#ultima-secao, address {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+}

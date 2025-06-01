@@ -1,0 +1,45 @@
+section#quinta-secao {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    color: #fff;
+}
+
+div.base {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+h2.sub-base {
+    margin-bottom: 10%;
+    text-transform: capitalize;
+    color: #9340ff;
+}
+
+div.base > p:first-of-type {
+    text-align: start;
+    padding-left: 50px;
+}
+
+
+@media screen and (max-width: 768px){
+    section#quinta-secao {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    h2.sub-base {
+        margin-bottom: 5%;
+    }
+
+    div.base > p:first-of-type {
+        padding-left: 10px;
+    }
+}

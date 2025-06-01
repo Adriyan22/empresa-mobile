@@ -1,0 +1,76 @@
+body {
+    background-color: #101728;
+    position: relative;
+}
+
+
+section#primeira-secao {
+    margin: 10% 5%;
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+div.mais-sobre-a-empresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    width: 300px;
+}
+
+h1 {
+    color:#fff;
+}
+
+a.saiba-mais {
+    background-image: linear-gradient(to right, #9340ff, #ff3c5f);
+    color:#0f1819;
+    padding: 5px 70px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+a.saiba-mais:active {
+    color: #fff;
+}
+
+div.imagem-ilustrativa, img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #1f41bb;
+}
+
+hr {
+    color: #fff;
+    max-width: 95%;
+    margin: 70px auto;
+}
+
+
+/*sombra*/
+.sombra-butao {
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 0px 10px #ffffff30;
+}
+
+@media screen and (max-width: 768px){
+    section#primeira-secao {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    h1 {
+        margin-bottom: 15%;
+    }
+}
+
+
